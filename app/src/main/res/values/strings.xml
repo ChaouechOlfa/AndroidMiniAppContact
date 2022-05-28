@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidMiniAppContact</string>
+    <string name="MettreNom">Mettez Votre Nom</string>
+    <string name="MettreNum">Mettez Num de Téléphone</string>
 </resources>
