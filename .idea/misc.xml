@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/chaou/AndroidStudioProjects/AndroidMiniAppContact/app/src/main/res/layout/activity_ajouter.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/chaou/AndroidStudioProjects/AndroidMiniAppContact/app/src/main/res/layout/activity_ajouter2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/chaou/AndroidStudioProjects/AndroidMiniAppContact/app/src/main/res/layout/activity_lister.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/chaou/AndroidStudioProjects/AndroidMiniAppContact/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/chaou/AndroidStudioProjects/AndroidMiniAppContact/app/src/main/res/layout/activity_modifier.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/chaou/AndroidStudioProjects/AndroidMiniAppContact/app/src/main/res/layout/activity_rechercher.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/chaou/AndroidStudioProjects/AndroidMiniAppContact/app/src/main/res/layout/activity_supprimer.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

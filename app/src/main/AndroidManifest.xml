@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidMiniAppContact">
         <activity
+            android:name=".ModifierActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AjouterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RechercherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SupprimerActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
