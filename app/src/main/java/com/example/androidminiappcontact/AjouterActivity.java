@@ -11,7 +11,7 @@ import android.widget.Toast;
 public class AjouterActivity extends AppCompatActivity {
     private EditText editAjouterNom;
     private EditText editAjouterNum;
-    private Button btnAjouter;
+    private Button btnAjouterContact;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,16 +19,16 @@ public class AjouterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ajouter);
         editAjouterNom=(EditText) findViewById(R.id.editAjouterNom);
         editAjouterNum=(EditText) findViewById(R.id.editAjouterNum);
-        btnAjouter=(Button) findViewById(R.id.btnAjouter);
+        btnAjouterContact=(Button) findViewById(R.id.btnAjouterContact);
 
-        btnAjouter.setOnClickListener(new View.OnClickListener() {
+        btnAjouterContact.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Contact c=new Contact(editAjouterNom.getText().toString(),editAjouterNum.getText().toString());
                 DatabaseHandler dbh = new DatabaseHandler(AjouterActivity.this);
                 long y = dbh.addContact(c);
                 if (y>0){
-                    Toast.makeText(getApplicationContext(),"ajout effectuer avec succé",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"ajout effectuer avec succés",Toast.LENGTH_LONG).show();
                 }else{
                     Toast.makeText(getApplicationContext(),"ajoutn'est pas effectué",Toast.LENGTH_LONG).show();
                 }
