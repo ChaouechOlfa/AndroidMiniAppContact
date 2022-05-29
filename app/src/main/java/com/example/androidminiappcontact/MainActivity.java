@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ((Button) findViewById(R.id.btnAjouter)).setOnClickListener(this);
         ((Button) findViewById(R.id.btnModifier)).setOnClickListener(this);
         ((Button) findViewById(R.id.btnSupprimer)).setOnClickListener(this);
+        ((Button) findViewById(R.id.btnRechercher)).setOnClickListener(this);
         ((Button) findViewById(R.id.btnModifier)).setOnClickListener(this);
         ((Button) findViewById(R.id.btnLister)).setOnClickListener(this);
         ((Button) findViewById(R.id.btnQuitter)).setOnClickListener(this);

@@ -1,48 +1,57 @@
 package com.example.androidminiappcontact;
 
 public class Contact {
-    private int id;
-    private String Nom;
-    private String Num;
 
-    public Contact() {
+    private int id;
+    private String nom;
+    private String number;
+
+
+    public Contact(int id, String nom, String number) {
+        this.id = id;
+        this.nom = nom;
+        this.number = number;
+    }
+    public Contact(String nom, String number) {
+        this.nom = nom;
+        this.number = number;
     }
 
-    public Contact(String nom, String num) {
-        Nom = nom;
-        Num = num;
+
+    public Contact() {
+
     }
 
     public int getId() {
         return id;
     }
 
-    public String getNom() {
-        return Nom;
-    }
-
-    public String getNum() {
-        return Num;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
 
-    public void setNom(String nom) {
-        Nom = nom;
+    public String getNom() {
+        return nom;
     }
 
-    public void setNum(String num) {
-        Num = num;
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     @Override
     public String toString() {
         return "Contact{" +
                 "id=" + id +
-                ", Nom='" + Nom + '\'' +
-                ", Num='" + Num + '\'' +
+                ", nom='" + nom + '\'' +
+                ", number='" + number + '\'' +
                 '}';
     }
 }

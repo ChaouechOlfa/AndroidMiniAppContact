@@ -27,10 +27,10 @@ public class AjouterActivity extends AppCompatActivity {
                 Contact c=new Contact(editAjouterNom.getText().toString(),editAjouterNum.getText().toString());
                 DatabaseHandler dbh = new DatabaseHandler(AjouterActivity.this);
                 long y = dbh.addContact(c);
-                if (y>0){
+                if (y > 0){
                     Toast.makeText(getApplicationContext(),"ajout effectuer avec succés",Toast.LENGTH_LONG).show();
                 }else{
-                    Toast.makeText(getApplicationContext(),"ajoutn'est pas effectué",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"ajout n'est pas effectué",Toast.LENGTH_LONG).show();
                 }
 
 
